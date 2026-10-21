@@ -12,14 +12,17 @@ Before implementation, I synthesized recent research (2024-2026) to categorize s
 
 1. **Preprocessing and Filter-Based Approach:**
    Focuses on isolating and purging noise before the training phase to maintain "clean repositories."
+
    *Key Papers: [Detecting noisy labels with repeated cross-validations](https://arxiv.org/html/2306.13990v2) | [KAIROS: Scalable Model-Agnostic Data Valuation](https://arxiv.org/abs/2506.23799)*
 
 2. **In-Processing and Robust Training Approach:**
    Refuses to delete data upfront, instead dynamically handling noise during training using memory or temporal mechanisms.
+
    *Key Papers: [ChronoSelect: Robust Learning with Noisy Labels](https://arxiv.org/abs/2507.18183) | [Label Noise Correction via Fuzzy Learning](https://ojs.aaai.org/index.php/AAAI/article/view/34055)*
 
 3. **Probabilistic & Generative Reconstruction Approach:**
    Learns the underlying distribution of clean data to reconstruct labels dynamically.
+   
    *Key Papers: [Dynamic Multiple High-order Correlations Fusion](https://www.ijcai.org/proceedings/2025/0703.pdf)*
 
 
